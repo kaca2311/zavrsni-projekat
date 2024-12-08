@@ -1,4 +1,4 @@
-# Selenium Automation Framework
+# Final Project
 
 This project is a Selenium-based automation framework designed to test the functionality of a sample e-commerce web application. It utilizes Java, TestNG, and WebDriverManager to facilitate browser automation in a modular and scalable manner.
 
@@ -6,7 +6,7 @@ This project is a Selenium-based automation framework designed to test the funct
 
 ## Features
 
-- **Login Functionality**: Tests valid and invalid login scenarios.
+- **Login Functionality**: Tests invalid login scenario.
 - **Cart Operations**: Verifies adding products to the cart and completing checkout.
 - **Category Filtering**: Confirms that category filtering reduces displayed product counts.
 - **Wishlist Management**: Ensures users can add products to their favorites.
