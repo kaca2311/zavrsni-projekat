@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All project tests">
+    <test name="All project tests">
+        <classes>
+            <class name="tests.CartTest">
+                <methods>
+                    <include name="cartTest"/>
+                </methods>
+            </class>
+            <class name="tests.NegativeLoginTest">
+                <methods>
+                    <include name="negativeLoginTest"/>
+                </methods>
+            </class>
+            <class name="tests.WishlistTest">
+                <methods>
+                    <include name="wishlistTest"/>
+                </methods>
+            </class>
+            <class name="tests.CategoryTest">
+                <methods>
+                    <include name="categoryTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
